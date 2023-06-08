@@ -73,7 +73,7 @@ document.addEventListener('submit', (e)=>{
     hasil.style.flex = '1.5';
     let baris = allInput[0].value;
     let kolom = allInput[1].value;
-    let orang = allInput[2].value;
+
     let total = baris*kolom;
 
     let fil = document.createElement('div');
