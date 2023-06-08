@@ -65,7 +65,7 @@ function brute(x, y){
     }
 
     else if(x==10){
-        return [2, 5];
+        return [2, 4];
     }
 }
 document.addEventListener('submit', (e)=>{
