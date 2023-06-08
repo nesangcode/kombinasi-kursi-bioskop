@@ -65,7 +65,7 @@ function brute(x, y){
     }
 
     else if(x==10){
-        return [2, 4];
+        return [2, 5];
     }
 }
 document.addEventListener('submit', (e)=>{
@@ -73,7 +73,6 @@ document.addEventListener('submit', (e)=>{
     hasil.style.flex = '1.5';
     let baris = allInput[0].value;
     let kolom = allInput[1].value;
-
     let total = baris*kolom;
 
     let fil = document.createElement('div');
